@@ -1,8 +1,9 @@
-const { getPokemonById } = require('./js-foundation/06-promises');
-const { buildLogger } = require('./plugins');
+
 // const { getAge, getUuId } = require('./plugins');
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
+
+import { buildLogger } from "./plugins/logger.plugin";
 
 // console.log('<--------------- JK App --------------->');
 // console.log(emailTemplate);
