@@ -3,7 +3,7 @@
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
 
-import { buildLogger } from "./plugins/logger.plugin";
+// import { buildLogger } from "./plugins/logger.plugin";
 
 // console.log('<--------------- JK App --------------->');
 // console.log(emailTemplate);
@@ -38,6 +38,6 @@ import { buildLogger } from "./plugins/logger.plugin";
 //         console.log(err);
 //     });
 
-const logger = buildLogger( 'app.js' );
-logger.log('hello world');
-logger.error('Esto es algo malo');
+// const logger = buildLogger( 'app.js' );
+// logger.log('hello world');
+// logger.error('Esto es algo malo');
