@@ -1,4 +1,4 @@
-import { getAge } from '../../src/plugins/get-age.plugin';
+import { getAge } from '../../src/plugins';
 describe('Get-age.plugin.test', () => {
     test( 'getAge should return the age of a person', () => {
         const birthDate = '1998-07-04';

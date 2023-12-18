@@ -1,4 +1,5 @@
-import { buildLogger, logger as winstonLogger } from '../../src/plugins/logger.plugin';
+import { logger as winstonLogger } from '../../src/plugins/logger.plugin';
+import { buildLogger } from '../../src/plugins';
 describe('Logger.plugin.test', () => {
    test( 'buildLogger should return a function logger', () => {
       const logger = buildLogger('test');

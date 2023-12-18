@@ -1,4 +1,4 @@
-import { getUuId } from '../../src/plugins/get-id.plugin';
+import { getUuId } from '../../src/plugins';
 describe('Get-id.plugin.test', () => {
     test( 'getId should return a UUID', () => {
         const uuid = getUuId();
